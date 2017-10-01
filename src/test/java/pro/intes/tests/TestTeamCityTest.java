@@ -9,12 +9,12 @@ public class TestTeamCityTest {
 
     @BeforeClass
     public static void beforeClass() {
-        System.out.println("До TestTeamCityTest");
+        System.out.println("BBBefore run TestTeamCityTest");
     }
 
     @AfterClass
     public static void afterClass() {
-        System.out.println("После TestTeamCityTest");
+        System.out.println("AAAfter run TestTeamCityTest");
     }
 
     @Before
@@ -35,9 +35,9 @@ public class TestTeamCityTest {
 
     @Test
     public void getSum() throws Exception {
-        Log.logTCTestStart( "Начало тестирование суммирования" );
+        Log.logTCTestStart( "Start testing Sum" );
         assertEquals(testTeamCity.getSum(5,9),15);
-        Log.logTCTestFinished( "Конец тестирования суммирования" );
+        Log.logTCTestFinished( "End testing Sum" );
     }
 
 }
