@@ -36,7 +36,7 @@ public class TestTeamCityTest {
     @Test
     public void getSum() throws Exception {
         Log.logTCTestStart( "Start testing Sum" );
-        assertEquals(testTeamCity.getSum(5,9),15);
+        assertEquals(testTeamCity.getSum(5,9),14);
         Log.logTCTestFinished( "End testing Sum" );
     }
 
